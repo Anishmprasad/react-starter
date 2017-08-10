@@ -18,7 +18,6 @@ constructor(props){
 }
 
 componentDidMount(){
-    console.log(this.props.helloWorldAction)
     this.props.helloWorldAction();
 }
 
